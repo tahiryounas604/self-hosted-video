@@ -1,0 +1,15 @@
+{
+  "description": "Self-hosted video platform backend: upload, ffmpeg HLS transcode queue, SQLite metadata, REST API, token auth.",
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "GPL-3.0",
+  "name": "self-hosted-video-backend",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/server.test.js"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
